@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kavitha K — Software Engineer</title>
+<meta name="description" content="Portfolio of Kavitha K — Java &amp; SQL foundations, backend development principles and meticulous QA craft." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,560;9..144,650&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-mark">KK<span class="dot">.</span></a>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#about" data-nav>About</a>
+    <a href="#skills" data-nav>Skills</a>
+    <a href="#projects" data-nav>Projects</a>
+    <a href="#education" data-nav>Education</a>
+    <a href="#contact" data-nav class="nav-cta">Say hello</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-grid" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Software Engineer · Java &amp; QA foundations</p>
+      <h1 class="hero-title">
+        Kavitha K<span class="ink-dot">.</span>
+      </h1>
+      <p class="hero-sub">
+        I build with Java and SQL, then break it on purpose — pairing backend
+        fundamentals with a tester's eye for what actually goes wrong.
+        Based in Coimbatore, India.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:kavitha.k0406@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/kavitha-k0406/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="meta-item">
+          <span class="meta-num">2</span>
+          <span class="meta-label">Engineering<br/>qualifications</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-num">2</span>
+          <span class="meta-label">Languages<br/>spoken fluently</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-num">EN</span>
+          <span class="meta-label">Selenium &amp;<br/>manual QA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIGNATURE ELEMENT: animated test console -->
+    <div class="hero-console reveal" style="--delay:120ms">
+      <div class="console">
+        <div class="console-bar">
+          <span class="console-dot d1"></span>
+          <span class="console-dot d2"></span>
+          <span class="console-dot d3"></span>
+          <span class="console-title">test-suite · kavitha-k</span>
+        </div>
+        <div class="console-body" id="consoleBody">
+          <div class="console-line prompt">run --suite core-profile</div>
+        </div>
+      </div>
+      <div class="console-caption">Every skill below has been "tested" — click to re-run ↺</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow">01 — About</p>
+      <div class="about-grid">
+        <p class="about-text reveal">
+          I'm an analytical engineer with foundational experience across Java
+          and SQL, comfortable moving between writing backend logic and
+          rigorously testing it. My background in Electronics &amp;
+          Communication Engineering taught me to think in systems; my current
+          training in manual and automated testing taught me to question them.
+          I care about clean version control, sound database design, and
+          software that behaves the same way twice — and I'm looking to bring
+          that structured curiosity to an enterprise engineering team.
+        </p>
+
+        <div class="about-cards">
+          <div class="info-card reveal" style="--delay:60ms">
+            <span class="info-card-label">Location</span>
+            <span class="info-card-value">Coimbatore, India</span>
+          </div>
+          <div class="info-card reveal" style="--delay:120ms">
+            <span class="info-card-label">Focus</span>
+            <span class="info-card-value">Backend &amp; QA</span>
+          </div>
+          <div class="info-card reveal" style="--delay:180ms">
+            <span class="info-card-label">Currently</span>
+            <span class="info-card-value">Training in Selenium automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-tint" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow">02 — Skills</p>
+      <h2 class="section-title reveal">A toolkit built on both sides of the code.</h2>
+
+      <div class="skills-grid" id="skillsGrid">
+        <!-- populated by JS from a data list, with fallback markup below -->
+        <div class="skill-col reveal" style="--delay:0ms">
+          <h3>Programming</h3>
+          <ul class="pill-list">
+            <li class="pill">Java</li>
+          </ul>
+        </div>
+        <div class="skill-col reveal" style="--delay:60ms">
+          <h3>Frontend</h3>
+          <ul class="pill-list">
+            <li class="pill">HTML</li>
+            <li class="pill">CSS</li>
+            <li class="pill">React</li>
+          </ul>
+        </div>
+        <div class="skill-col reveal" style="--delay:120ms">
+          <h3>Databases</h3>
+          <ul class="pill-list">
+            <li class="pill">Oracle SQL</li>
+            <li class="pill">MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-col reveal" style="--delay:180ms">
+          <h3>Testing &amp; Automation</h3>
+          <ul class="pill-list">
+            <li class="pill">Selenium WebDriver</li>
+            <li class="pill">Manual Testing</li>
+            <li class="pill">Test Case Design</li>
+            <li class="pill">Bug Reporting</li>
+          </ul>
+        </div>
+        <div class="skill-col reveal" style="--delay:240ms">
+          <h3>Tools &amp; IDEs</h3>
+          <ul class="pill-list">
+            <li class="pill">Eclipse IDE</li>
+            <li class="pill">Maven</li>
+            <li class="pill">Git</li>
+            <li class="pill">GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow">03 — Featured project</p>
+      <h2 class="section-title reveal">Protecting what shouldn't be seen.</h2>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <h3>Multimode Medical Image Security Using Encryption Algorithm with Discrete Wavelength Transform</h3>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Encryption</span>
+            <span class="tag">DWT</span>
+            <span class="tag">Image Processing</span>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <div class="project-block">
+            <span class="project-label">Problem</span>
+            <p>Medical image data is vulnerable to unauthorized access during storage or transmission.</p>
+          </div>
+          <div class="project-block">
+            <span class="project-label">Solution</span>
+            <ul>
+              <li>Built a secure system to protect medical images using encryption combined with Discrete Wavelength Transform (DWT).</li>
+              <li>Ensured confidentiality by transforming and encrypting image data before it was stored or transmitted.</li>
+              <li>Helped prevent unauthorized access and preserved data privacy across healthcare environments.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION + CERT ============ -->
+  <section class="section section-tint" id="education">
+    <div class="section-inner">
+      <p class="section-eyebrow">04 — Education &amp; certification</p>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jan – Jun 2026 · In progress</span>
+            <h3>Manual Tester &amp; Selenium Automation</h3>
+            <p class="timeline-org">Qsipers, Coimbatore</p>
+            <ul>
+              <li>Currently undergoing intensive training in manual testing methodologies, test case design and bug reporting.</li>
+              <li>Developing practical skills in Selenium WebDriver automation, test scripting and end-to-end functional testing workflows.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">July 2024</span>
+            <h3>Bachelor of Engineering — Electronics &amp; Communication Engineering</h3>
+            <p class="timeline-org">Sri Vidya College of Engineering &amp; Technology, Virudhunagar</p>
+            <span class="timeline-score">70.1%</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">June 2018</span>
+            <h3>Diploma — Electronics &amp; Communication Engineering</h3>
+            <p class="timeline-org">Vellaichamy Nadar Polytechnic College, Virudhunagar</p>
+            <span class="timeline-score">70.3%</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">April 2015</span>
+            <h3>Secondary Education</h3>
+            <p class="timeline-org">Kshatriya Girls Higher Secondary School, Virudhunagar</p>
+            <span class="timeline-score">67.8%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="languages reveal">
+        <h3 class="languages-title">Languages</h3>
+        <div class="lang-row">
+          <span class="lang-name">English</span>
+          <div class="lang-bar"><span style="--w:95%"></span></div>
+          <span class="lang-level">Highly proficient</span>
+        </div>
+        <div class="lang-row">
+          <span class="lang-name">Tamil</span>
+          <div class="lang-bar"><span style="--w:100%"></span></div>
+          <span class="lang-level">Highly proficient</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="section-eyebrow">05 — Contact</p>
+      <h2 class="contact-title reveal">Let's build something worth testing.</h2>
+      <p class="contact-sub reveal">
+        Open to backend, QA and full-stack opportunities. I reply quickly.
+      </p>
+
+      <div class="contact-actions reveal">
+        <a class="btn btn-primary" href="mailto:kavitha.k0406@gmail.com">kavitha.k0406@gmail.com</a>
+        <a class="btn btn-ghost" href="https://linkedin.com" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Kavitha K.</span>
+  <span>Built with care by Kavitha K</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
